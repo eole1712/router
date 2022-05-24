@@ -24,7 +24,7 @@ clap = { version = "3.1.18", default-features = false, features = [
     "derive",
     "std",
 ] }
-deadpool = { version = "0.9.4", features = ["rt_tokio_1"] }
+deadpool = { version = "0.9.5", features = ["rt_tokio_1"] }
 derivative = "2.2.0"
 derive_more = { version = "0.99.17", default-features = false, features = [
     "from",
@@ -85,7 +85,7 @@ serde_yaml = "0.8.24"
 sys-info = "0.9.1"
 thiserror = "1.0.31"
 tokio = { version = "1.18.2", features = ["full"] }
-tokio-util = { version = "0.7.1", features = ["net", "codec"] }
+tokio-util = { version = "0.7.2", features = ["net", "codec"] }
 tonic = { version = "0.6.2", features = ["transport", "tls"] }
 tower = { version = "0.4.12", features = ["full"] }
 tower-http = { version = "0.3.3", features = ["trace", "cors"] }
@@ -97,9 +97,9 @@ tracing-subscriber = { version = "0.3.11", features = ["env-filter", "json"] }
 typed-builder = "0.10.0"
 url = { version = "2.2.2", features = ["serde"] }
 apollo-spaceport = { path = "../apollo-spaceport" }
-axum = { version = "0.5.4", features = ["headers", "json", "original-uri"] }
+axum = { version = "0.5.6", features = ["headers", "json", "original-uri"] }
 rhai = { version = "1.7.0", features = ["sync", "serde", "internals"] }
-libc = "0.2.125"
+libc = "0.2.126"
 yaml-rust = "0.4.5"
 
 [target.'cfg(macos)'.dependencies]
@@ -112,7 +112,7 @@ uname = "0.1.1"
 insta = "1.14.0"
 jsonpath_lib = "0.3.0"
 maplit = "1.0.2"
-mockall = "0.11.0"
+mockall = "0.11.1"
 reqwest = { version = "0.11.10", default-features = false, features = [
     "json",
     "stream",
